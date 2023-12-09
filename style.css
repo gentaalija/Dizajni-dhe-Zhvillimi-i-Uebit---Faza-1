@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:"Open Sans, sans-serif";
+
+}
+header{
+    height: 90px;
+    background:transparent;
+    
+}
+.inner-widhth{
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: left;
+}
+.logo{
+    float:left;
+    padding: 20px 0;
+
+}
+.logo img{
+    height: 50px;
+
+}
+.navigation-menu{
+    float:right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+}
+
+.navigation-menu a{
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding:12px 20px;
+    background:whitesmoke;
+    border-radius:  4px;
+    transition: .3s linear;
+    
+}
+.navigation-menu a:hover{
+    background: #fff;
+    color: #2f3640;
+    transform: scale(1.1);
+}
+.navigation-menu i{
+    margin-right: 8px;
+    font-size:16px ;
+
+}
+home{
+    color: #ff6b6b;
+}
+
+about{
+    color: #0abde0;
+}
+services{
+    color: #feca57;
+}
+Air line {
+    color: #5f27cd;
+}
+Contact us{
+    color: #1dd1a1;
+}
+.menu-toggle-btn{
+    float: right;
+    height:90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(aeroplani.png);
+
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#191919;
+    text-align: center;
+
+}
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius: 25px;
+    transition:0.25s;
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+width: 280px;
+border-color:#feca57;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #feca57;
+    padding:14px 40px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.box input[type = "submit"]:hover{
+    background: #feca57;
+}
+.about{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    margin-top: 25pt;
+    display: row;
+    flex-direction: column;
+    background-color: #191919;
+
+    }
+.about1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:whitesmoke;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    margin-top: 60pt;
+    background-color: #191919;
+    
+}
+.about2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 85pt;
+    color:whitesmoke;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    background-color: #191919;
+}
+.service{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    color: whitesmoke;
+    transition: o.4s;
+    background-color: #191919;
+}
+.service1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50pt;
+    color: whitesmoke;
+    font-size: 50pt;
+    background-color: #191919;
+   
+}
+.airline1{
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 10pt;
+color: whitesmoke;
+font-size: 40pt;
+background-color:#191919;
+
+}
+.airline{
+    width: 100%;
+    border-bottom-left-radius: 10pt;
+    border-color: black;
+    border-right: black;
+    margin-top: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color:#191919;
+    font-size: 30pt;
+}
+
+.contact{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10pt;
+    color: whitesmoke;
+    background-color:#191919;
+    text-decoration: solid;
+}
+.contact1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30pt;
+    font-size: 35pt;
+    background-color:#191919;
+    color: whitesmoke;
+    
+}
